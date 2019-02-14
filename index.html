@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Countdown Timer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
+<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background-image: url('./assets/img/slide-1.jpeg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/slide-2.jpeg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/slide-3.jpeg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/slide-4.jpeg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/slide-5.jpeg')"></div>
+            </div>
+            <div class="slider-overlay"></div>
+            <div class="content-wrapper">
+                <div class="content-inner-wrapper">
+                    <div class="content content-right">
+                        <div class="text-wrapper">
+                            <div class="countdown-wrapper">
+                                <div class="countdown-item">
+                                    <span id="days" class="main-handle"></span>
+                                    <span class="countdown-text">Days</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span id="hours" class="main-handle"></span>
+                                    <span class="countdown-text">Hours</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span id="minutes" class="main-handle"></span>
+                                    <span class="countdown-text">Minutes</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span id="seconds" class="main-handle"></span>
+                                    <span class="countdown-text">Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+</html>
